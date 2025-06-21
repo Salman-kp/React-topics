@@ -10,14 +10,17 @@ import Conditionrendering from "./components/Conditionrendering";
 import List from "./components/List";
 import Eventhandling from "./components/Eventhandling";
 import Listmain from "./components/listmain";
+import Listofqoute from "./components/listofquote";
 function App() {
  
-
+   
   return (
     <>
-   <Listmain/>
+    
 
  {/* 
+    <Listofqoute/>
+     <Listmain/>
      <Eventhandling/> 
      <List/>
      <Conditionrendering isLogined={true} />
