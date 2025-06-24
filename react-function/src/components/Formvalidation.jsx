@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+
 export default function Formvalidation() {
   const [name, setName] = useState("");
   const [comments, setComments] = useState("");
@@ -14,10 +15,10 @@ export default function Formvalidation() {
   const handleChangeTopic = (e) => {
     setTopic(e.target.value);
   };
-  const handleSubmit=(e)=>{
-      alert(`${name}    ${comments}    ${topic}`)
-      e.preventDefault()
-  }
+  const handleSubmit = (e) => {
+    alert(`${name}    ${comments}    ${topic}`);
+    e.preventDefault();
+  };
   return (
     <form onSubmit={handleSubmit}>
       <div>
