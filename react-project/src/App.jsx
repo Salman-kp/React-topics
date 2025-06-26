@@ -11,14 +11,16 @@ import List from "./components/List";
 import Eventhandling from "./components/Eventhandling";
 import Listmain from "./components/listmain";
 import Listofqoute from "./components/listofquote";
+import Quotes from "./Quotes";
+import UseReducer from "../../react-function/src/components/UseReducer";
 function App() {
  
    
   return (
     <>
+    <UseReducer/>
     
-
- {/* 
+ {/* <Quotes/>
     <Listofqoute/>
      <Listmain/>
      <Eventhandling/> 
